@@ -41,8 +41,8 @@ const Formulario = (props) => {
                     aoAlterado={valor => setCargo(valor)}
                 />
                 <CampoTexto
-                    label="Imagem"
-                    placeholder="Digite o endereço da imagem"
+                    label="Usuario do GitHub"
+                    placeholder="Digite o nome do seu usuario do GitHub"
                     valor={imagem}
                     aoAlterado={valor => setImagem(valor)}
                 />
